@@ -140,7 +140,7 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-md,/* icônes facebook et autres */
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(27, 25, 25, 0.942);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -702,6 +702,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -736,6 +738,10 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.black{
+    color:black; /* Teinte texte informations */
 }
 
 .portfolio-thumb {
@@ -775,6 +781,7 @@ h4 {
 
 .tc-white {
     color: #ffffff!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
