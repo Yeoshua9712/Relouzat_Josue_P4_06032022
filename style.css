@@ -283,7 +283,7 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+#bloc-1-hero h1 { /* Titre important */
     font-size: 32px;
     font-weight: 700;
 }
@@ -577,6 +577,10 @@ a[data-lightbox]:hover img {
     margin: 0 auto;
 }
 
+#lightbox-image{
+    height: 320px;
+    width: 320px;
+}
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -742,7 +746,7 @@ h4 {
 }
 
 .black{
-    color:black; /* Teinte texte informations */
+    color:black!important; /* Teinte texte informations */
 }
 
 .text-decoration{
