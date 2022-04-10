@@ -30,6 +30,20 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+.justify-content{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
 .bloc {
     clear: both;
     background: 50% 50% no-repeat;
@@ -283,8 +297,7 @@ a:hover {
     margin-left: 0;
 }
 
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters > [class*=" col-sm-3"] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -770,11 +783,6 @@ h3 {
 h1 {
     color: #333333!important;
 }
-
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
