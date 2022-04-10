@@ -4843,7 +4843,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li>a {
     position: relative;
-    display: block;
+    display: initial;
     padding: 10px 15px
 }
 
